@@ -1,0 +1,9 @@
+{
+    "language_name": "Français",
+    "language_identifier": "fr",
+    "dog": "chien",
+    "cat": "chat",
+    "horse": "cheval",
+    "ALSO_AVAILABLE_LABEL" : "FR - Also available...",
+    "USERREG_L-1_FIRSTNAME_LABEL" : "Local FR - Bienvenue"
+}

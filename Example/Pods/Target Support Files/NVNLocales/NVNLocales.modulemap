@@ -1,0 +1,6 @@
+framework module NVNLocales {
+  umbrella header "NVNLocales-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_NVNLocales_Example {
+  umbrella header "Pods-NVNLocales_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
