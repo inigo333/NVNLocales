@@ -1,13 +1,10 @@
 //
 //  MIMView.h
-//  ConciergePrototype
 //
-//  Created by imato on 04/06/2015.
-//  Copyright (c) 2015 Media inMotion. All rights reserved.
-//
+//  Created by inigo mato
 
 
-@interface MIMView : UIView < UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate >
+@interface NVNView : UIView < UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate >
 
 @property (nonatomic, weak) id delegate;
 

@@ -1,22 +1,19 @@
 //
 //  MIMView.m
-//  ConciergePrototype
 //
-//  Created by imato on 04/06/2015.
-//  Copyright (c) 2015 Media inMotion. All rights reserved.
-//
+//  Created by inigo mato
 
-#import "MIMView.h"
-//#import "UIImageView+LazyLoading.h"
+
+#import "NVNView.h"
 #import <NVNLocales/NVNLocales-umbrella.h>
 
-@interface MIMView ()
+@interface NVNView ()
 
 
 
 @end
 
-@implementation MIMView
+@implementation NVNView
 
 /////////////////////////////////////////////////
 #pragma mark - Initialization
@@ -31,15 +28,10 @@
         self.clipsToBounds = YES;
         self.delegate = delegate;
         self.label = [[UILabel alloc] initWithFrame:CGRectZero];
-//        self.label.textColor = [[MIMTheme sharedManagedMIMTheme].themeColours fontColor];
-//        self.label.backgroundColor = [[MIMTheme sharedManagedMIMTheme].themeColours backgroundColor];
-//        self.label.font = [[MIMTheme sharedManagedMIMTheme].themeFonts fontWithSize:16.0];
-//        self.label.font = [[MIMTheme sharedManagedMIMTheme].themeFonts fontButtonsStringWithSize:16.0];
-//        self.label.font = [[MIMTheme sharedManagedMIMTheme].themeFonts fontTitlesWithSize:16.0];
-//        self.label.font = [[MIMTheme sharedManagedMIMTheme].themeFonts fontBoldWithSize:16.0];
+
         [self addSubview:self.label];
         
-        self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];//[UIImageView imageViewByLazyLoadingUrlString:[[MIMTheme sharedManagedMIMTheme].themeImages headerImageUrl]];
+        self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
         [self addSubview:self.imageView];
         
         self.pickerView = [[UIPickerView alloc] initWithFrame:CGRectZero];

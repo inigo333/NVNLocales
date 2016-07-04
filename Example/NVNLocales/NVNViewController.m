@@ -7,7 +7,7 @@
 //
 
 #import "NVNViewController.h"
-#import "MIMView.h"
+#import "NVNView.h"
 
 @interface NVNViewController ()
 
@@ -28,7 +28,7 @@
 
 - (Class)viewClass
 {
-    return [MIMView class];
+    return [NVNView class];
 }
 
 - (CGRect)viewFrame

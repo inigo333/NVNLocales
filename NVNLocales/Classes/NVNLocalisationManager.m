@@ -7,7 +7,6 @@
 //
 
 #import "NVNLocalisationManager.h"
-#import "MIMSingleton.h"
 
 #define MIMLanguageDictionaryKey @"MIMLanguageDictionary"
 #define MIMLanguageIdentifierKey @"MIMLanguageIdentifier"

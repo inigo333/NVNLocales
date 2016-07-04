@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '66B4877A5E6C4342818143A0DC962125'
+               BlueprintIdentifier = '85A7D5D056E0764BEA3B32166BBB0596'
                BlueprintName = 'NVNLocales'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'NVNLocales.framework'>

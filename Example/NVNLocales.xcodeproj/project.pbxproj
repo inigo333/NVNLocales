@@ -21,8 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6AE6666D1D268CEF00137F1B /* MIMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6666C1D268CEF00137F1B /* MIMView.m */; };
-		6AE6666E1D268CEF00137F1B /* MIMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6666C1D268CEF00137F1B /* MIMView.m */; };
+		6AE6666D1D268CEF00137F1B /* NVNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6666C1D268CEF00137F1B /* NVNView.m */; };
+		6AE6666E1D268CEF00137F1B /* NVNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6666C1D268CEF00137F1B /* NVNView.m */; };
 		6AE666821D26BA5B00137F1B /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AE666811D26BA5B00137F1B /* en.json */; };
 		6AE666851D26BAF700137F1B /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AE666831D26BAF700137F1B /* es.json */; };
 		6AE666861D26BAF700137F1B /* fr.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AE666841D26BAF700137F1B /* fr.json */; };
@@ -64,8 +64,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6AE6666B1D268CEF00137F1B /* MIMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMView.h; sourceTree = "<group>"; };
-		6AE6666C1D268CEF00137F1B /* MIMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMView.m; sourceTree = "<group>"; };
+		6AE6666B1D268CEF00137F1B /* NVNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVNView.h; sourceTree = "<group>"; };
+		6AE6666C1D268CEF00137F1B /* NVNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVNView.m; sourceTree = "<group>"; };
 		6AE666811D26BA5B00137F1B /* en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
 		6AE666831D26BAF700137F1B /* es.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = es.json; sourceTree = "<group>"; };
 		6AE666841D26BAF700137F1B /* fr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fr.json; sourceTree = "<group>"; };
@@ -145,8 +145,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* NVNViewController.h */,
 				6003F5A6195388D20070C39A /* NVNViewController.m */,
-				6AE6666B1D268CEF00137F1B /* MIMView.h */,
-				6AE6666C1D268CEF00137F1B /* MIMView.m */,
+				6AE6666B1D268CEF00137F1B /* NVNView.h */,
+				6AE6666C1D268CEF00137F1B /* NVNView.m */,
 				6AE666871D26BAFC00137F1B /* json */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -421,7 +421,7 @@
 			files = (
 				6003F59E195388D20070C39A /* NVNAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* NVNViewController.m in Sources */,
-				6AE6666D1D268CEF00137F1B /* MIMView.m in Sources */,
+				6AE6666D1D268CEF00137F1B /* NVNView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AE6666E1D268CEF00137F1B /* MIMView.m in Sources */,
+				6AE6666E1D268CEF00137F1B /* NVNView.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
